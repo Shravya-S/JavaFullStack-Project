@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.container{
+	height:350px;
+	width:300px;
+	background-color:white;
+	position:absolute;
+	padding:30px;
+	top: 25%;
+    left: 40%;
+    border-radius:20px;
+    background: #191919;
+    text-align: center;
+
+}
+#an{
+	width:170px;
+	padding:14px 10px;
+	text-align:center;
+	border-radius:20px;
+	background:white;
+	transition:0.5s;
+	border:2px solid #9D174D;
+}
+#an:hover{
+	width:200px;
+	background-color:#36395a;
+}
+#an:focus{
+	color:#E5E7EB;
+	background-color:#777aaf;
+}
+ h3{
+  font-family: "Lucida Console";
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+   h4{
+  font-family: "Lucida Console";
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  #btn{
+    text-color: black;
+    margin: 15px ;
+    text-align: center;
+    border: 2px solid #C4B5FD;
+    padding: 14px 20px;
+    border-radius: 25px;
+    transition: 0.55s;
+    cursor: pointer;
+    
+  }
+ 
+ #btn:hover {
+    background: linear-gradient(#93C5FD 5%, #60A5FA 100%);
+  }
+

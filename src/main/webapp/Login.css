@@ -1,0 +1,126 @@
+@charset "UTF-8";
+ 
+body{
+	background-image:url("images/s.jpg");
+    background-size:cover;
+    font-family: sans-serif;
+     
+  }
+  .container{
+    height:350px;
+    width: 280px;
+    padding: 30px;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    border-radius:20px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+     
+  }
+  #link{
+  position:relative;
+  left:30%;
+  font-weight:300;
+  text-decoration:none;
+  }
+ h3{
+  font-family: "Lucida Console";
+    color:rgb(128, 0, 64);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:20px;
+  }
+ #text{
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    color: grey;
+    border-radius: 25px;
+    transition: 0.25s;
+    }
+ #text:hover{
+    background-color:#2ecc71;
+    width:250px;
+    }
+ #text:focus{
+    background-color:black;
+    color:white;
+    }
+ .container-2 {
+  position:relative;
+  top:550px;
+  }
+  
+ #cpwd{
+ position:relative;
+ left:1150px;
+ text-decoration:none;
+ border-radius: 25px;
+ padding:10px;
+ text-decoration:none;
+ border:3px solid #739cb8;
+ background-color:rgb(230, 255, 253);
+ top:50px;
+ }
+ #el{
+  position:relative;
+ left:150px;
+ border-radius: 25px;
+ padding:10px;
+ text-decoration:none;
+ border:3px solid #739cb8;
+ background-color:rgb(230, 255, 253);
+ top:50px;
+ }
+ #el:hover{
+    background:linear-gradient(#7fffd6 5%, #42dcab 100%);
+    width:250px;
+    }
+    
+ #cpwd:hover{
+    background:linear-gradient(#7fffd6 5%, #42dcab 100%);
+    width:250px;
+    }
+ #btn{
+    text-color: black;
+    margin: 20px ;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    border-radius: 25px;
+    transition: 0.55s;
+    cursor: pointer;
+  }
+ 
+ #btn:hover {
+    background: linear-gradient(#7fffd6 5%, #42dcab 100%);
+  }
+#img{
+	 position:relative;
+ right:0.5%;
+ height:50px;
+ width:50px;
+	
+}
+ #error-message{
+	color: #2ecc71
+}
+#one{
+	position:relative;
+	top:-8px;
+	left:-8px;
+	right:50%;
+   width:1518px;
+   height:100px;
+   background:transparent;
+}
+#io{
+	width:100px;
+ height:100px;
+}
+
+ 
+    
+  
